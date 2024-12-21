@@ -3,12 +3,12 @@ home: true
 title: Home
 heroImage: https://res.cloudinary.com/dbsadrsxp/image/upload/v1722173705/esc-logo_bzi4lw.jpg
 actions:
-  - text: 人生经历
-    link: /life-experience.html
-    type: primary
-
   - text: 人生感悟
     link: /life-insights.html
+    type: primary
+
+  - text: 个人简历
+    link: /resume.html
     type: secondary
 
 features:
