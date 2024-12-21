@@ -40,11 +40,11 @@
 > - 职责和贡献：作为项目的开发人员，研究实现数据生产者模块，通过全量同步与增量订阅结合的方式将`MySQL`、`Oracle`、`SQL Server`、文件目录中的数据发送至`RocketMQ`；设计与实现数据消费者模块，完成数据在区块链与`ElasticSearch`的并行存证；
 > - 其他经验：熟悉`Tomcat`服务器的应用部署；熟悉`Nginx`代理、反向代理、限流、健康度检查与缓存；熟悉`Samba`文件服务
 
-## 开源项目与作品
+## 其它作品
 
 ### 开源项目
 
-#### [prometheus/client_python]
+#### [prometheus/client_python] 4k stars
 
 23年7月，公司出于安全因素需要exporter支持HTTPS/TLS，在确认社区未支持该特性后，首先通过patch的方式实现该功能，保障项目按时交付;再利用业余时间提交[PR]到社区，经过与社区核心成员的73次讨论、更新9次代码、耗时4个月将该特性合并到主干;因为该重要特性的合入，社区专门发布了[0.19.0]版本;也因为该特性的合入，下游项目IBM ZHMC Exporter维护者特意发感谢邮件致谢。
 
@@ -54,33 +54,43 @@
 
 - [一致性Hash算法与虚拟节点]
 - [我在Dubbo源码里学到了如何保证虚拟节点均匀分布]
+- [待补充一篇] 翻译
   
 #### Web3
 
-- [Hello Solidity]
+- [Hello Solidity] 小册
 
 #### 迁移学习
 
-- [基于F3Net显著性目标检测的蝴蝶图像前背景自动分割]
+- [基于F3Net显著性目标检测的蝴蝶图像前背景自动分割] 论文
 
 #### K8S
 
-- [一种kubernetes跨版本平滑升级方案] 专利审核中
+- [一种kubernetes跨版本平滑升级方案] 专利 审核中
 
-## 技能清单
+## 技术栈
 
-以下均为我熟练使用的技能
+熟练的使用(每周都用)
 
-- Web开发：PHP/Hack/Node
-- Web框架：ThinkPHP/Yaf/Yii/Lavaral/LazyPHP
-- 前端框架：Bootstrap/AngularJS/EmberJS/HTML5/Cocos2dJS/ionic
-- 前端工具：Bower/Gulp/SaSS/LeSS/PhoneGap
-- 数据库相关：MySQL/PgSQL/PDO/SQLite
-- 版本管理、文档和自动化部署工具：Git/Jupyter/Jenkins/Ansible
-- 单元测试：PHPUnit/SimpleTest/Qunit
-- 云和开放平台：SAE/BAE/AWS/微博开放平台/微信应用开发
+- 开发语言: Python
+- 版本管理: Git
+- 持续集成: Jenkins
+- 单元测试: UnitTest
+- 操作系统: CentOS(HCE)
+- 口云原生: Kubernetes
+
+广泛的了解(做过项目)
+
+- 后端框架: SprinBoot/Django
+- 前端框架: Vue/Next.Js/Bootstrap
+- 服务部署: Tomcat/Nginx
+- 口中间件: RabbitMQ/Redis/Kafka/RocketMQ
+- 口数据库: MySQL/SQLite/Oracle
+- 终端开发: Android应用/IOS应用/微信小程序/微信公众号
+- 游戏开发: C#/Unity3D
+- 运维工具: Ansible
+- 技术文档: Jupyter
 - 数据处理: Matlab
-- 游戏开发: Unity3D/C#
 
 ## 致谢
 

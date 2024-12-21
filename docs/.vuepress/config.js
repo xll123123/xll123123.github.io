@@ -6,28 +6,28 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'en-US',
 
-  title: 'Ethan S. Chen\'Blog',
-  description: 'Welcome to my blog',
+  title: 'Ethan S. Chen',
+  description: '乘舟侧畔千帆过，病树前头万木春',
 
   theme: defaultTheme({
-    logo: 'https://res.cloudinary.com/dbsadrsxp/image/upload/v1722173705/esc-logo_bzi4lw.jpg',
+    logo: 'https://avatars.githubusercontent.com/u/45326345?v=4',
 
     navbar: [
       '/',
       {
-        text: 'Article',
+        text: '文章',
         link: '/article/',
       },
       {
-        text: 'Category',
+        text: '类别',
         link: '/category/',
       },
       {
-        text: 'Tag',
+        text: '标签',
         link: '/tag/',
       },
       {
-        text: 'Timeline',
+        text: '时间线',
         link: '/timeline/',
       },
     ],

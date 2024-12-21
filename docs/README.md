@@ -1,7 +1,7 @@
 ---
 home: true
-title: Home
-heroImage: https://res.cloudinary.com/dbsadrsxp/image/upload/v1722173705/esc-logo_bzi4lw.jpg
+title: 主页
+heroImage: https://avatars.githubusercontent.com/u/45326345?v=4
 actions:
   - text: 人生感悟
     link: /life-insights.html
@@ -25,5 +25,5 @@ features:
   - title: 广泛的了解
     details: Android 应用、IOS 应用、WeChat 小程序、WeChat 公众号、Unity 3D 游戏、Vue、Next.Js
 
-footer: MIT Licensed | Copyright © 2024-present Ethan S. Chen
+footer: MIT协议 | 版权所有©2024-至今 Ethan S. Chen
 ---
