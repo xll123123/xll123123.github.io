@@ -20,7 +20,7 @@
 
 ## 📤 可以转载吗？
 
-本作品由[ethanschen](https://github.com/ethanschen)创作，采用[MIT](LICENSE)协议进行授权
+本仓库内除标明转载外文章由[ethanschen](https://github.com/ethanschen)创作，采用[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)协议进行授权
 
 ## 🛠️ 博客是怎么部署的？
 

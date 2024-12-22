@@ -1,8 +1,8 @@
 {
   "name": "ethanschen",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Ethan Spruance Chen's Blog",
-  "license": "MIT",
+  "license": "CC BY 4.0",
   "type": "module",
   "author": "ethanschen",
   "scripts": {
