@@ -1,9 +1,10 @@
 {
   "name": "ethanschen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ethan Spruance Chen's Blog",
   "license": "MIT",
   "type": "module",
+  "author": "ethanschen",
   "scripts": {
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",

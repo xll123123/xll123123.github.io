@@ -4,8 +4,7 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
-
+  lang: 'zh-CN',
   title: 'Ethan S. Chen',
   description: '乘舟侧畔千帆过，病树前头万木春',
 

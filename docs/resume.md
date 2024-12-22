@@ -56,13 +56,13 @@
 - [我在Dubbo源码里学到了如何保证虚拟节点均匀分布]
 - [待补充一篇] 翻译
   
-#### Web3
-
-- [Hello Solidity] 小册
-
 #### 迁移学习
 
 - [基于F3Net显著性目标检测的蝴蝶图像前背景自动分割] 论文
+
+#### Web3
+
+- [Hello Solidity] 小册
 
 #### K8S
 
@@ -102,4 +102,4 @@
 [0.19.0]: https://pypi.org/project/prometheus-client/0.19.0
 [一致性Hash算法与虚拟节点]: https://blog.csdn.net/Eazon_chan/article/details/117576686
 [我在Dubbo源码里学到了如何保证虚拟节点均匀分布]: https://blog.csdn.net/Eazon_chan/article/details/117888489
-[Hello Solidity]: https://karezachen.github.io/solidity
+[Hello Solidity]: https://ethanschen.github.io/solidity
