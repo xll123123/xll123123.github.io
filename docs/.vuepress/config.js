@@ -9,7 +9,20 @@ export default defineUserConfig({
   description: '乘舟侧畔千帆过，病树前头万木春',
 
   theme: defaultTheme({
+    // 代码仓库
+    repo: 'ethanschen/ethanschen.github.io',
+
+    // Logo图片的URL
     logo: 'https://avatars.githubusercontent.com/u/45326345?v=4',
+
+    // 部署的域名
+    hostname: 'https://ethans.space',
+
+    // 支持【编辑此页】功能
+    docsRepo: 'https://github.com/ethanschen/ethanschen.github.io',
+    docsBranch: 'master',
+    docsDir: 'docs',
+    editLinkPattern: ':repo/edit/:branch/:path',
 
     navbar: [
       '/',
