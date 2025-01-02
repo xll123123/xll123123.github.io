@@ -12,8 +12,8 @@ actions:
     type: secondary
 
 features:
-  - title: Prometheus-Contributor
-    details: Implemented the mTLS feature of promethues/client_python, for which the project team released a new version!
+  - title: 跳出【996怪圈】
+    details: 尽早推演出跳出【996怪圈】的术，然后证道，走向理想工作～
   - title: 深入的研究
     details: Python 语言
   - title: 广泛的了解
