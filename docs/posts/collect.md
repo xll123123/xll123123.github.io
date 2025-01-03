@@ -4,7 +4,6 @@ category:
   - 收藏
 tag:
   - 收藏
-sticky: 10
 ---
 
 # 收藏

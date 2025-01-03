@@ -4,7 +4,6 @@ category:
   - Reading Notes
 tag:
   - think
-archive: true
 ---
 
 # 阅读笔记<一>

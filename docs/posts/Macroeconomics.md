@@ -4,7 +4,6 @@ category:
   - 经济
 tag:
   - 宏观经济
-sticky: 10
 ---
 
 # 宏观经济

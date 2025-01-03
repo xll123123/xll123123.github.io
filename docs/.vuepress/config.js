@@ -31,14 +31,6 @@ export default defineUserConfig({
         link: '/article/',
       },
       {
-        text: '类别',
-        link: '/category/',
-      },
-      {
-        text: '标签',
-        link: '/tag/',
-      },
-      {
         text: '时间线',
         link: '/timeline/',
       },
