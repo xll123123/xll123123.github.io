@@ -2,6 +2,8 @@
 date = '2025-01-04T12:00:00+08:00'
 draft = false
 title = 'Kubernetes生态下的软件调试方法——以Provider为例'
+categories = [ "唠唠技术" ]
+tags = [ "Kubernetes", "Terraform", "开源" ]
 +++
 
 ## 背景

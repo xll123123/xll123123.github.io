@@ -2,6 +2,8 @@
 date = '2021-06-13T12:00:00+08:00'
 draft = false
 title = '我在Dubbo源码里学到了如何保证虚拟节点均匀分布'
+categories = [ "唠唠技术" ]
+tags = [ "一致性Hash", "算法", "Dubbo" ]
 +++
 
 ## 背景

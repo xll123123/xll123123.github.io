@@ -2,6 +2,8 @@
 date = '2021-06-05T01:07:08+08:00'
 draft = false
 title = '一致性Hash算法与虚拟节点'
+categories = [ "唠唠技术" ]
+tags = [ "一致性Hash", "算法" ]
 +++
 ## 缘起
 
