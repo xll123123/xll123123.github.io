@@ -146,34 +146,10 @@ enabled = true
   [[menu.main]]
   name = "主页"
   url = "/"
-  weight = 10
+  weight = -90
   identifier = "home"
     [menu.main.params]
     icon = "home"
-    newTab = false
-  [[menu.main]]
-  name = "归档"
-  url = "/archives/"
-  weight = 20
-  identifier = "archives"
-    [menu.main.params]
-    icon = "archives"
-    newTab = false
-  [[menu.main]]
-  name = "搜索"
-  url = "/search/"
-  weight = 30
-  identifier = "search"
-    [menu.main.params]
-    icon = "search"
-    newTab = false
-  [[menu.main]]
-  name = "友链"
-  url = "/links/"
-  weight = 40
-  identifier = "links"
-    [menu.main.params]
-    icon = "link"
     newTab = false
 
   [[menu.social]]
