@@ -1,8 +1,14 @@
-+++
-date = '1998-06-16T12:00:00+08:00'
-draft = false
-title = '个人简历'
-+++
+---
+title: About
+menu:
+    main: 
+        weight: -40
+        params:
+            icon: cv
+
+comments: true
+---
+
 ## 联系方式
 
 - 邮箱：[ethanschen@163.com](mailto:ethanschen@163.com)
@@ -12,7 +18,7 @@ title = '个人简历'
 
 - 男/1998/本科/福建农林大学软件工程
 - 工作年限: 5年
-- 技术博客: [www.ethans.space](https://www.ethans.space)
+- 技术博客: [ethans.space](https://www.ethans.space)
 - 期望岗位: 软件架构师
 - 期望薪资: 税前月薪23k～25k
 - 期望城市: 杭州、厦门

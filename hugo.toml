@@ -144,7 +144,7 @@ enabled = true
 
 [menu]
   [[menu.main]]
-  name = "主页"
+  name = "Home"
   url = "/"
   weight = -90
   identifier = "home"
@@ -159,13 +159,6 @@ enabled = true
   weight = 10
     [menu.social.params]
     icon = "brand-github"
-  [[menu.social]]
-  identifier = "cv"
-  name = "CV"
-  url = "/personal/cv/"
-  weight = 20
-    [menu.social.params]
-    icon = "file-cv"
 
 [related]
 includeNewer = true
