@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Ethan S. Chen - 高级软件开发工程师</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* 全局样式 */
+        body {
+            line-height: 1.6;
+            margin: auto;
+            padding: 20px;
+            max-width: 1024px;
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            color: #444;
+            background: #f8fafc;
+        }
+
+        /* 标题栏容器 */
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        /* 主标题 */
+        .main-title {
+            flex: 1;
+            font-size: 2.2rem;
+            padding: 1.2rem;
+            border-radius: 8px;
+            color: white;
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-right: 20px;
+        }
+
+        /* 联系信息栏 */
+        .contact-box {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            text-align: right;
+            min-width: 200px;
+        }
+
+        /* 二维码容器 */
+        .qrcode-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        #qrcode {
+            width: 70px;
+            border: 1px solid lightgrey;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        /* 响应式处理 */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            .main-title {
+                width: 100%;
+                margin-right: 0;
+                text-align: center;
+            }
+            .contact-box {
+                width: 100%;
+                text-align: center;
+            }
+            .qrcode-container {
+                justify-content: center;
+            }
+        }
+
+        /* 标题样式 */
+        h2 {
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 0.5rem;
+            color: #1e3a8a;
+            margin: 1.8rem 0 1.2rem;
+            font-weight: 600;
+        }
+
+        h3 {
+            color: #1e3a8a;
+            margin: 1.5rem 0 0.8rem;
+            font-size: 1.2rem;
+        }
+
+        /* 列表样式 */
+        ul {
+            padding-left: 1.2rem;
+            margin: 0.8rem 0;
+        }
+
+        li {
+            margin-bottom: 0.6rem;
+            padding-left: 0.5rem;
+        }
+
+        /* 浮动模块 */
+        .float-box {
+            float: right;
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin: 0 0 1rem 1rem;
+        }
+
+        /* 时间标签 */
+        .time-tag {
+            float: right;
+            color: #3b82f6;
+            font-size: 0.95em;
+            padding: 4px 10px;
+            background: #eef2ff;
+            border-radius: 4px;
+            font-weight: 700;
+            margin-top: 3px;
+        }
+
+        /* 技术栈分栏 */
+        .tech-columns {
+            column-count: 2;
+            column-gap: 2rem;
+        }
+
+        /* 链接样式 */
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+            border-bottom: 1px dotted;
+        }
+
+        a:hover {
+            color: #2563eb;
+        }
+
+        /* 二维码样式 */
+        #qrcode {
+            width: 70px;
+            border: 1px solid lightgrey;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            margin: 0 0 1rem 1rem;
+        }
+
+        /* 打印优化 */
+        @media print {
+            body {
+                padding: 10px;
+                font-size: 12pt;
+            }
+            .float-box, #qrcode {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+            .tech-columns {
+                column-count: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="header-container">
+        <div class="main-title">Ethan S. Chen</div>
+
+        <div class="contact-box">
+            <div class="qrcode-container">
+                <div>
+                    📧 ethanschen@163.com<br>
+                    🌐 www.ethans.space<br>
+                    <small>优先微信联系</small>
+                </div>
+                <img id="qrcode" src="wechat-qr.png" alt="微信二维码">
+            </div>
+        </div>
+    </div>
+
+
+    <h2>🔍 核心优势</h2>
+    <ul>
+        <li><strong>5年大型分布式系统开发经验</strong> - 熟悉软件生命周期的各个阶段，具备丰富开发经验的同时兼具项目管理经验</li>
+        <li><strong>开源社区贡献者</strong> - 主导开发prometheus/client_python的<a class="link" href="https://github.com/prometheus/client_python/releases/tag/v0.19.0" target="_blank" rel="noopener">mTLS</a>特性</li>
+        <li>擅长复杂软件系统的各种疑难问题定位与解决</li>
+        <li>拥有广泛的技术背景与开阔的系统设计视野</li>
+    </ul>
+
+    <h2>🛠 技术栈</h2>
+    <ul class="tech-columns">
+        <li><strong>Languages</strong>: Python, Go, Java, Bash</li>
+        <li><strong>Cloud & DevOps</strong>: Kubernetes, Docker, Prometheus, Grafana, OpenStack, Ansible, Jenkins, Nginx, Tomcat</li>
+        <li><strong>DB & MQ</strong>: MySQL, PostgreSQL(GaussDB), SQLite, Redis, Elasticsearch, RabbitMQ, Kafka, Pulsar</li>
+        <li><strong>Backend</strong>: Spring Boot, Django</li>
+        <li><strong>Frontend</strong>: Vue.js, Next.js, Bootstrap</li>
+        <li><strong>Mobile</strong>: Android/iOS Apps, WeChat Mini Programs</li>
+        <li><strong>Others</strong>: Git, Jupyter, Unity3D</li>
+    </ul>
+
+    <h2>💼 项目经验</h2>
+
+    <span class="time-tag">2021.08 - 至今</span>
+    <h3>华为云计算有限公司（高级软件开发工程师）</h3>
+    <ul>
+        <li>管理项目进度，识别项目风险，解决项目阻塞点，对项目负责</li>
+        <li>组织Oncall及CI事务，持续改进产品运维与交付能力</li>
+        <li>独立完成特性的设计与开发，支撑疑难问题定位攻关</li>
+    </ul>
+
+    <h4>Openstack云原生化改造项目</h4>
+    <p><strong>职责</strong>: 方案设计、特性开发、解决方案推广、组织现网上线</p>
+    <p><strong>描述</strong>: 华为云管理面使用自研运维系统解决软件的配置管理、版本升级、状态维护等问题，为降低成本与提高可靠性，需要推进管理面的云原生化改造；为存量系统提供快速云原生化的方案并保证现网业务平稳，为此推出OpenStack云原生化敏捷版方案</p>
+    <p><strong>成果</strong>:</p>
+    <ol>
+        <li>30+组件已使用该方案完成快速云原生化</li>
+        <li>8个现网局点已完成云原生化改造</li>
+        <li>总计已上线4000+的容器实例，容器实例占总实例30%</li>
+    </ol>
+
+    <h4>Kubernetes集群部署自动化及机型适配</h4>
+    <p><strong>职责</strong>: 项目管理、特性开发</p>
+    <p><strong>描述</strong>: 为支持华为云新局点开局部署Kubernetes集群，需要适配新机型并基于自动化平台开发插件，需要组织跨团队的11位开发人员在开局前交付该特性。</p>
+    <p><strong>成果</strong>:</p>
+    <ol>
+        <li>版本优秀交付个人奖、版本经理提报红事件表彰</li>
+        <li>项目如期交付，在3个测试局点验收通过，在1个现网局点验收通过</li>
+    </ol>
+
+    <span class="time-tag">2020.05 - 2021.08</span>
+    <h3>福建福链科技有限公司（技术研发工程师）</h3>
+    <ul>
+        <li>技术选型与核心功能预研</li>
+        <li>主导核心模块开发</li>
+        <li>软件部署和系统演示</li>
+    </ul>
+
+    <h2>🎓 教育背景</h2>
+    <ul>
+        <li>软件工程学士学位，福建农林大学</li>
+        <li>本科期间表现优秀，被学校推荐到<a class="link" href="https://www.fafu.edu.cn/2018/0425/c136a30423/pagem.psp" target="_blank" rel="noopener">台湾清华大学</a>交流学习</li>
+        <li>本科毕业论文《<a class="link" href="http://www.insect.org.cn/CN/10.16380/j.kcxb.2021.05.008" target="_blank" rel="noopener">基于F3Net显著性目标检测的蝴蝶图像前背景自动分割</a>》发表在核心期刊《昆虫学报》上</li>
+    </ul>
+
+</body>
+</html>
