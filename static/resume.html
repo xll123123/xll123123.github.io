@@ -5,136 +5,108 @@
     <title>Ethan S. Chen - 高级软件开发工程师</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        /* 全局样式 */
         body {
-            line-height: 1.6;
+            line-height: 1.4;
             margin: auto;
-            padding: 20px;
+            padding: 10px;
             max-width: 1024px;
             font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
             color: #444;
             background: #f8fafc;
         }
 
-        /* 标题栏容器 */
         .header-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
         }
 
-        /* 主标题 */
-        .main-title {
+        .header-box {
+            display: flex;
+            align-items: center;
             flex: 1;
-            font-size: 2.2rem;
-            padding: 1.2rem;
-            border-radius: 8px;
-            color: white;
+            padding: 0.8rem; 
             background: linear-gradient(135deg, #2563eb, #3b82f6);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-right: 20px;
-        }
-
-        /* 联系信息栏 */
-        .contact-box {
-            background: white;
-            padding: 12px;
             border-radius: 6px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            text-align: right;
-            min-width: 200px;
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        /* 二维码容器 */
+        .main-title {
+            font-size: 2rem; 
+            margin-right: 15px; 
+        }
+
+        .contact-box {
+            background: transparent !important; /* 移除背景色 */
+            box-shadow: none !important; /* 移除阴影 */
+            color: white; /* 文字颜色改为深蓝色 */
+            margin-left: auto; /* 自动左外边距实现右对齐 */
+            padding: 0 !important; /* 移除内边距 */
+        }
+
+        .contact-box .link {
+            color: white;
+            border-bottom-color: rgba(30, 58, 138, 0.3);
+        }
+        .contact-box .link:hover {
+            color: #2563eb;
+        }
+
         .qrcode-container {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 10px; 
         }
 
         #qrcode {
-            width: 70px;
+            width: 60px; 
             border: 1px solid lightgrey;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
 
-        /* 响应式处理 */
-        @media (max-width: 768px) {
-            .header-container {
-                flex-direction: column;
-                gap: 15px;
-            }
-            .main-title {
-                width: 100%;
-                margin-right: 0;
-                text-align: center;
-            }
-            .contact-box {
-                width: 100%;
-                text-align: center;
-            }
-            .qrcode-container {
-                justify-content: center;
-            }
-        }
-
-        /* 标题样式 */
         h2 {
-            border-bottom: 2px solid #3b82f6;
-            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #3b82f6;
+            padding-bottom: 0.4rem; 
             color: #1e3a8a;
-            margin: 1.8rem 0 1.2rem;
+            margin: 1.5rem 0 1rem; 
             font-weight: 600;
         }
 
-        h3 {
+        h3, h4 {
             color: #1e3a8a;
-            margin: 1.5rem 0 0.8rem;
-            font-size: 1.2rem;
+            margin: 1rem 0 0.5rem; 
+            font-size: 1.1rem; 
         }
 
-        /* 列表样式 */
         ul {
-            padding-left: 1.2rem;
-            margin: 0.8rem 0;
+            padding-left: 1rem; 
+            margin: 0.5rem 0; 
         }
 
         li {
-            margin-bottom: 0.6rem;
-            padding-left: 0.5rem;
+            margin-bottom: 0.4rem; 
+            padding-left: 0.4rem; 
         }
 
-        /* 浮动模块 */
-        .float-box {
-            float: right;
-            background: white;
-            padding: 12px;
-            border-radius: 6px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            margin: 0 0 1rem 1rem;
-        }
-
-        /* 时间标签 */
         .time-tag {
             float: right;
             color: #3b82f6;
-            font-size: 0.95em;
-            padding: 4px 10px;
+            font-size: 0.9em; 
+            padding: 3px 8px; 
             background: #eef2ff;
             border-radius: 4px;
             font-weight: 700;
             margin-top: 3px;
         }
 
-        /* 技术栈分栏 */
         .tech-columns {
             column-count: 2;
-            column-gap: 2rem;
+            column-gap: 1.5rem; 
         }
 
-        /* 链接样式 */
         a {
             color: #3b82f6;
             text-decoration: none;
@@ -144,46 +116,21 @@
         a:hover {
             color: #2563eb;
         }
-
-        /* 二维码样式 */
-        #qrcode {
-            width: 70px;
-            border: 1px solid lightgrey;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            margin: 0 0 1rem 1rem;
-        }
-
-        /* 打印优化 */
-        @media print {
-            body {
-                padding: 10px;
-                font-size: 12pt;
-            }
-            .float-box, #qrcode {
-                box-shadow: none;
-                border: 1px solid #ddd;
-            }
-            .tech-columns {
-                column-count: 1;
-            }
-        }
     </style>
 </head>
 <body>
-
-
     <div class="header-container">
-        <div class="main-title">Ethan S. Chen</div>
-
-        <div class="contact-box">
-            <div class="qrcode-container">
-                <div>
-                    📧 ethanschen@163.com<br>
-                    🌐 www.ethans.space<br>
-                    <small>优先微信联系</small>
+        <div class="header-box">
+            <div class="main-title">Ethan S. Chen</div>
+            <div class="contact-box">
+                <div class="qrcode-container">
+                    <div>
+                        📧 <a class="link" href="mailto:ethanschen@163.com">ethanschen@163.com</a><br>
+                        🌐 <a class="link" href="https://www.ethans.space/" target="_blank" rel="noopener">ethanschen</a><br>
+                        <small>优先微信联系</small>
+                    </div>
+                    <img id="qrcode" src="wechat-qr.png" alt="微信二维码">
                 </div>
-                <img id="qrcode" src="wechat-qr.png" alt="微信二维码">
             </div>
         </div>
     </div>
