@@ -21,8 +21,6 @@ comments: true
 - 本科/福建农林大学软件工程系
 - 工作年限: 5年
 - 技术博客: [https://www.ethans.space](https://www.ethans.space)
-- 期望岗位: Python开发工程师
-- 期望薪资: 税前月薪20k～25k，特别喜欢的公司可例外
 - 期望城市: 杭州、上海
 
 ## 工作经历
