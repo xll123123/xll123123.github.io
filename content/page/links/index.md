@@ -1,10 +1,10 @@
 ---
 title: Links
 links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: 书樱寄语
+    description: 记录心情 记录生活
+    website: https://blog.sakurapuare.com
+    image: https://blog.sakurapuare.com/favicon.ico
 menu:
     main: 
         weight: -50
