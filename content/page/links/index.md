@@ -18,7 +18,7 @@ comments: false
 
 如果你也想在下面留有你的网站，可以按以下格式留言：
 
-昵称：Ethan S. Chen
+> 昵称：Ethan S. Chen
 名称：Ethan S. Chen’s Blog
 描述：沉舟侧畔千帆过，病树前头万木春
 邮箱：ethanschen@163.com
